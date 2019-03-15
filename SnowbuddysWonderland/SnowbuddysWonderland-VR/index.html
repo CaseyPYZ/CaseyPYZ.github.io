@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>Snowbuddy's Wonderland</title>
+		<meta charset="UTF-8">
+
+		<!-- P5 libraries -->
+		<script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+		<script language="javascript" type="text/javascript" src="libraries/p5.sound.js"></script>
+
+		<!-- A-Frame libraries -->
+		<script language="javascript" type="text/javascript" src="libraries/aframe.min.js"></script>
+
+		<!-- AFrameP5 library -->
+		<script language="javascript" type="text/javascript" src="libraries/aframep5.js"></script>
+
+		<!-- P5 Sketch -->
+		<script language="javascript" type="text/javascript" src="Snowbuddy.js"></script>
+		<script language="javascript" type="text/javascript" src="sketch.js"></script>
+
+		<!-- custom styles -->
+		<style>
+			body {
+				padding: 0;
+				margin: 0;
+			}
+		</style>
+	</head>
+	<body>
+
+		<!-- container to hold our VR scene - make sure to give this element an ID of 'VRScene' -->
+	    <a-scene id="VRScene">
+
+	    	<!--
+		       The 'a-assets' container is used to load in any external artwork you may want to use as "textures" for your objects.
+		       Ensure that this element has an ID of 'VRAssets'
+
+		       Textures can be loaded by creating a new 'a-asset' tag inside of the 'a-assets' container.
+		       When doing this you will need to make sure to give your textures a unique ID -
+		       this will be used by p5 to create new objects.
+
+		       Example:
+
+		       <img id="ITEM_ID_GOES_HERE" src="images/gold_block.png"></asset-item>
+			-->
+
+			<a-assets id="VRAssets">
+
+				<img id="sky1" src="img/sky_1.jpg"></a-assets>
+				<img id="snow" src="img/snow.jpg"/>
+
+				<a-asset id="building1a_obj" src="mod/building-1-a.obj"></a-asset>
+				<a-asset id="building1a_mtl" src="mod/building-1-a.mtl"></a-asset>
+
+				<a-asset id="building1b_obj" src="mod/building-1-b.obj"></a-asset>
+				<a-asset id="building1b_mtl" src="mod/building-1-b.mtl"></a-asset>
+
+				<a-asset id="building1c_obj" src="mod/building-1-c.obj"></a-asset>
+				<a-asset id="building1c_mtl" src="mod/building-1-c.mtl"></a-asset>
+
+				<a-asset id="building1d_obj" src="mod/building-1-d.obj"></a-asset>
+				<a-asset id="building1d_mtl" src="mod/building-1-d.mtl"></a-asset>
+
+			</a-assets>
+
+			<!-- define the sky for this scene -->
+			<a-sky id="theSky" src="#sky1" color="rgb(80,80,80)"></a-sky>
+
+	    </a-scene>
+
+	</body>
+</html>

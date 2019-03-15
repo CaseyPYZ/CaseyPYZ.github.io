@@ -1,0 +1,108 @@
+body{
+  background-color: #F3F3F3;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+  color:#333;
+}
+
+a:active{
+  text-decoration: none;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #666;
+}
+
+.header{
+  text-align: center;
+  padding-top: 100px;
+  margin: auto;
+}
+
+.title{
+  font-family: Gill Sans,Gill Sans MT,sans-serif;
+  font-size: 50px;
+  text-decoration: none;
+  text-align: center;
+  color: #333;
+  align: center;
+  margin: auto;
+}
+
+.table{
+  padding-bottom: 200px;
+}
+
+.rows{
+  margin-top: 100px;
+  padding-top: 100px;
+  margin: auto;
+  width: 1030px;
+  height: 150px;
+  border: 0px;
+
+}
+
+.cell{
+  width: 150px;
+  height: 200px;
+  align: left;
+  vertical-align: top;
+  border: 0px;
+
+
+}
+
+.blanc{
+  width: 100px;
+  height: 200px;
+  border: 0px;
+
+}
+
+.img{
+  width: 150px;
+  height:150px;
+}
+
+.names{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: left;
+  color: #666;
+  decoration:none;
+}
+
+.hcell{
+  width: 150px;
+  height: 50px;
+  align: left;
+  vertical-align: bottom;
+  border: 0px;
+  padding-bottom: 10px;
+
+}
+
+.hblanc{
+  width: 100px;
+  height: 50px;
+  border: 0px;
+
+}
+
+.column-titles{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: left;
+  color: #444;
+  decoration:none;
+}

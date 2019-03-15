@@ -29,13 +29,28 @@ body{
 	margin: auto;
 }
 
-#arrow_g{
+#arrow_gVR{
+	position:absolute;
+	top:250px;
+	right:50px;
+}
+
+#arrowGTextVR{
+	position:absolute;
+	top:214px;
+	right:118px;
+	color:rgb(255,255,255);
+	font-size:36px;
+	font-family: 'Indie Flower', cursive;
+}
+
+#arrow_gAR{
 	position:absolute;
 	top:340px;
 	right:50px;
 }
 
-#arrowGText{
+#arrowGTextAR{
 	position:absolute;
 	top:304px;
 	right:118px;
@@ -44,31 +59,7 @@ body{
 	font-family: 'Indie Flower', cursive;
 }
 
-
 #proposal{
-	padding-top:30px;
-	margin-bottom:100px;
-	/*width:600px;*/
-	margin: auto;
-}
-
-
-#arrow_d{
-	position:absolute;
-	top:520px;
-	right:50px;
-}
-
-#arrowDText{
-	position:absolute;
-	top:484px;
-	right:118px;
-	color:rgb(255,255,255);
-	font-size:36px;
-	font-family: 'Indie Flower', cursive;
-}
-
-#documentation{
 	padding-top:30px;
 	margin-bottom:100px;
 	/*width:600px;*/
@@ -84,6 +75,28 @@ body{
 #arrowPText{
 	position:absolute;
 	top:394px;
+	right:118px;
+	color:rgb(255,255,255);
+	font-size:36px;
+	font-family: 'Indie Flower', cursive;
+}
+
+#documentation{
+	padding-top:30px;
+	margin-bottom:100px;
+	/*width:600px;*/
+	margin: auto;
+}
+
+#arrow_d{
+	position:absolute;
+	top:520px;
+	right:50px;
+}
+
+#arrowDText{
+	position:absolute;
+	top:484px;
 	right:118px;
 	color:rgb(255,255,255);
 	font-size:36px;

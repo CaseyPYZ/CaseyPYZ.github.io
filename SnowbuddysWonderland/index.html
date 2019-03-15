@@ -9,9 +9,14 @@
 	<script src="SnowbuddysWonderland/libraries/p5.sound.min.js"></script>
 </head>
 <body>
-	<div id="game">
-		<img class="arrow" id="arrow_g" src="img/arrow-rightA.svg" width="50" height="50" onmouseover="hoverImgG()" onmouseout="normalImgG()" onclick="toGamePage()">
-		<p id="arrowGText" onclick="toGamePage()">Snowbuddy's Wonderland</p>
+	<div id="gameVR">
+		<img class="arrow" id="arrow_gVR" src="img/arrow-rightA.svg" width="50" height="50" onmouseover="hoverImgGVR()" onmouseout="normalImgGVR()" onclick="toVRPage()">
+		<p id="arrowGTextVR" onclick="toVRPage()">Snowbuddy's Wonderland in VR</p>
+	</div>
+
+	<div id="gameAR">
+		<img class="arrow" id="arrow_gAR" src="img/arrow-rightA.svg" width="50" height="50" onmouseover="hoverImgGAR()" onmouseout="normalImgGAR()" onclick="toARPage()">
+		<p id="arrowGTextAR" onclick="toARPage()"> . . . or AR?</p>
 	</div>
 
 	<div id="proposal">
@@ -28,19 +33,33 @@
 
 	<script type="text/javascript">
 
-		// game
-		function hoverImgG(){
-			document.getElementById('arrow_g').src="img/arrow-rightB.svg";
-			document.getElementById('arrowGText').style.right='120px';
+		// game(s)
+		function hoverImgGVR(){
+			document.getElementById('arrow_gVR').src="img/arrow-rightB.svg";
+			document.getElementById('arrowGTextVR').style.right='120px';
 		}
 
-		function normalImgG(){
-			document.getElementById('arrow_g').src="img/arrow-rightA.svg";
-			document.getElementById('arrowGText').style.right='118px';
+		function normalImgGVR(){
+			document.getElementById('arrow_gVR').src="img/arrow-rightA.svg";
+			document.getElementById('arrowGTextVR').style.right='118px';
 		}
 
-		function toGamePage(){
-			window.location.replace('SnowbuddysWonderland/index.html');
+		function toVRPage(){
+			window.location.replace('SnowbuddysWonderland-VR/index.html');
+		}
+
+		function hoverImgGAR(){
+			document.getElementById('arrow_gAR').src="img/arrow-rightB.svg";
+			document.getElementById('arrowGTextAR').style.right='120px';
+		}
+
+		function normalImgGAR(){
+			document.getElementById('arrow_gAR').src="img/arrow-rightA.svg";
+			document.getElementById('arrowGTextAR').style.right='118px';
+		}
+
+		function toARPage(){
+			window.location.replace('SnowbuddysWonderland-AR/index.html');
 		}
 
 		// proposal
