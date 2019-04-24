@@ -2,6 +2,10 @@ body{
   background-color: #F3F3F3;
 }
 
+a{
+  color:#333;
+}
+
 a:link{
   text-decoration: none;
 }
