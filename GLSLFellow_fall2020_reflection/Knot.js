@@ -5,7 +5,7 @@ function Knot(id, x, y, img, year, txt){
   this.y = y;
 
   // radius
-  this.r = 15;
+  this.r = 10;
 
   this.img = img;
 

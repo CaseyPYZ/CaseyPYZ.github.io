@@ -32,6 +32,7 @@ function Button(id, img, x, y, w){
         break;
 
       case "M":
+        mode = modes.SEVEN;
         break;
 
       case "B":
